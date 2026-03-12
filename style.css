@@ -24,3 +24,13 @@
     flex: 1; /* Membuat item membagi ruang sama rata */
     text-align: center;
 }
+
+/* Mengatur body agar card berada tepat di tengah layar */
+body {
+    display: flex;
+    justify-content: center; /* Menengahkan secara horizontal (kiri-kanan) */
+    align-items: center;     /* Menengahkan secara vertikal (atas-bawah) */
+    min-height: 100vh;       /* Membuat tinggi body sebesar layar monitor/HP kamu */
+    margin: 0;               /* Menghapus jarak bawaan dari browser */
+    background-color: #f0f2f5; /* (Opsional) Memberi warna background abu-abu muda */
+}
